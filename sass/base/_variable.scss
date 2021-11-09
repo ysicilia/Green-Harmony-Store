@@ -1,0 +1,25 @@
+$encabezado-1:white;
+$fuente:'Amatic SC', cursive;
+$iconos:#d5436f;
+$encabezado-2:#159374;
+$titulo:#0e635e;
+$navegador-texto:#f8beb4;
+
+/*maps*/
+$headings:(
+    h1: 35px,
+    h2: 30px,
+    h3: 25px,
+    h4:20px,
+);
+
+.principal{
+    font-size: map-get($headings, h1 );
+}
+.info{
+    font-size: map-get($headings, h3);
+}
+.infoFinal{
+    font-size: map-get($headings, h4 );
+}
+
