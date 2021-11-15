@@ -33,8 +33,9 @@
 }
 .pregunta{
     .title{
-        .parrafoMedio{
-            
-        }
+        @extend %tituloMedio;
+    }
+    .parrafoMedio{
+        @extend %parrafos;
     }
 }

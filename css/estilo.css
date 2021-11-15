@@ -1,8 +1,22 @@
+.pregunta .title {
+  color: #149073;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5% 0;
+  text-align: center; }
+
 .principalTitle {
   font-size: 40px; }
 
 .title {
   font-size: 30px; }
+
+.pregunta .parrafoMedio {
+  color: black;
+  font-family: 'Mali', cursive;
+  font-size: 15px;
+  text-align: center; }
 
 * {
   box-sizing: border-box;
