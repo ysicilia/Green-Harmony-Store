@@ -12,7 +12,7 @@
 .minititulo {
   font-size: 16px; }
 
-.pregunta p, .container p {
+.pregunta p, .container p, .principalTitle p {
   color: black;
   font-family: 'Mali', cursive;
   font-size: 15px;
