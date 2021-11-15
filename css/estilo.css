@@ -103,3 +103,19 @@ label {
   color: #005f89;
   margin: 2%;
   text-align: center; }
+
+footer {
+  background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%); }
+  footer nav .listaMenu .listaMenu__item {
+    list-style: none; }
+    footer nav .listaMenu .listaMenu__item a {
+      text-decoration: none;
+      font-family: 'Amatic SC', cursive;
+      color: black;
+      font-size: 30px;
+      font-weight: bold;
+      transition: all 1s; }
+    footer nav .listaMenu .listaMenu__item:hover {
+      background-color: #d1efc6;
+      color: #145c8d;
+      border-radius: 20px; }

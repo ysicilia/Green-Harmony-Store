@@ -90,12 +90,26 @@ label{
     text-align: center;
 }
 footer{
+    background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%);
     nav{
         .listaMenu{
             .listaMenu__item{
-                
+                list-style: none;
+                & a{
+                    text-decoration:none;
+                    font-family: 'Amatic SC', cursive;
+                    color:black;
+                    font-size: 30px;
+                    font-weight: bold;
+                    transition: all 1s;
+                }
+                &:hover{
+                    background-color:#d1efc6;
+                    color:#145c8d;
+                    border-radius: 20px;
+                }
             }
         }
-    }
+    }    
 }
 
