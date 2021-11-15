@@ -49,3 +49,18 @@
         @extend %littleTitle;
     }
 }
+.container{
+    .iconos{
+        h3{
+            @extend %littleTitle;
+        }
+    }
+    @extend %contenedor;
+    a{
+        @extend %contenedorLink;
+    }
+    p{
+        @extend %parrafos;
+    }
+}
+

@@ -5,7 +5,10 @@
 .title {
   font-size: 20px; }
 
-.pregunta p {
+.littleTitle {
+  font-size: 20px; }
+
+.pregunta p, .container p {
   color: black;
   font-family: 'Mali', cursive;
   font-size: 15px;
@@ -18,12 +21,22 @@
   margin: 5% 0;
   text-align: center; }
 
-.seguinos h3 {
+.seguinos h3, .container .iconos h3 {
   color: #005f89;
   font-size: 20px;
   font-weight: bold;
   font-family: 'Amatic SC', cursive;
   text-align: center; }
+
+.container {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 20px; }
+
+.container a {
+  color: #d5436f;
+  margin: 10px;
+  font-size: 20px; }
 
 * {
   box-sizing: border-box;
