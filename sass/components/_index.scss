@@ -51,7 +51,7 @@
 }
 .container{
     .iconos{
-        h3{
+        .tituloPequeño{
             @extend %littleTitle;
         }
     }
