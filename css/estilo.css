@@ -1,13 +1,9 @@
-/*maps*/
-/*.principal{
-    font-size: map-get($headings, h1 );
-}
-.info{
-    font-size: map-get($headings, h3);
-}
-.infoFinal{
-    font-size: map-get($headings, h4 );
-}*/
+.principalTitle {
+  font-size: 40px; }
+
+.title {
+  font-size: 30px; }
+
 * {
   box-sizing: border-box;
   margin: 0; }
@@ -16,4 +12,16 @@
   filter: brightness(1.1);
   mix-blend-mode: multiply;
   width: 120px; }
-  
+
+.principalTitle h1 {
+  color: #0e635e;
+  filter: brightness(1.1);
+  font-family: 'Dancing Script', cursive;
+  mix-blend-mode: multiply;
+  text-align: center;
+  width: 100%;
+  animation-name: fondoPrincipal;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 4s;
+  animation-delay: 5s; }
