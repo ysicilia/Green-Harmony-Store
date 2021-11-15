@@ -148,13 +148,11 @@ table {
   color: black;
   font-size: 10px;
   margin: 10% 0%; }
-
-th {
-  background-color: #e2e2e2;
-  border: 1px solid black;
-  color: #d5436f;
-  text-align: center; }
-
-tr td {
-  border: 1px solid;
-  color: black; }
+  table th {
+    background-color: #e2e2e2;
+    border: 1px solid black;
+    color: #d5436f;
+    text-align: center; }
+  table tr td {
+    border: 1px solid;
+    color: black; }
