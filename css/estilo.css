@@ -25,7 +25,7 @@
   margin: 5% 0;
   text-align: center; }
 
-.seguinos h3, .container .iconos .tituloPequeño {
+.seguinos h3, .container .iconos .tituloPequeño, .container .miniTitulo {
   color: #005f89;
   font-weight: bold;
   font-family: 'Amatic SC', cursive;
@@ -90,3 +90,16 @@
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
   font-size: 25px; }
+
+input {
+  height: 40px;
+  border: 2px solid pink;
+  text-align: center;
+  margin: 2%; }
+
+label {
+  font-weight: bold;
+  font-family: 'Amatic SC', cursive;
+  color: #005f89;
+  margin: 2%;
+  text-align: center; }

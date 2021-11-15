@@ -62,6 +62,9 @@
     p{
         @extend %parrafos;
     }
+    .miniTitulo{
+        @extend %littleTitle;
+    }
 }
 .nav-link{
     font-family: 'Amatic SC', cursive;
@@ -72,5 +75,27 @@
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
     font-size: 25px;
+}
+input{
+    height: 40px;
+    border:2px solid pink;
+    text-align: center;
+    margin: 2%;
+}
+label{
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+    color:#005f89;
+    margin: 2%;
+    text-align: center;
+}
+footer{
+    nav{
+        .listaMenu{
+            .listaMenu__item{
+                
+            }
+        }
+    }
 }
 
