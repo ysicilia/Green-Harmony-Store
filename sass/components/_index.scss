@@ -35,7 +35,17 @@
     .title{
         @extend %tituloMedio;
     }
-    .parrafoMedio{
+    p{
         @extend %parrafos;
+    }
+}
+.seguinos{
+    color:#d5436f;;
+    font-weight: bold;
+    text-align: center;
+    margin: 10%;
+    font-size: 25px;
+    h3{
+        @extend %littleTitle;
     }
 }
