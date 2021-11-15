@@ -119,3 +119,42 @@ footer {
       background-color: #d1efc6;
       color: #145c8d;
       border-radius: 20px; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  padding: 20px;
+  grid-gap: 10px; }
+
+.imagen {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  transition: all 1s; }
+
+.imagen:hover {
+  transform: scale(2, 1); }
+
+.galleryItem:nth-child(1) {
+  grid-column-start: span 2; }
+
+.galleryItem:nth-child(10) {
+  grid-column-start: span 2; }
+
+table {
+  border: 2px solid;
+  color: black;
+  font-size: 10px;
+  margin: 10% 0%; }
+
+th {
+  background-color: #e2e2e2;
+  border: 1px solid black;
+  color: #d5436f;
+  text-align: center; }
+
+tr td {
+  border: 1px solid;
+  color: black; }
