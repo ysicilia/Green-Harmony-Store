@@ -213,6 +213,9 @@ footer {
     .seguinos h3 {
       font-size: 30px; } }
 
+.principalTitle p {
+  font-size: 15px; }
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
