@@ -134,7 +134,7 @@ footer {
         color: #145c8d;
         border-radius: 20px; }
 
-@media only screen and (min-width: 971px) and (max-width: 1450px) {
+@media only screen and (min-width: 971px) {
   .principalTitle {
     font-size: 40px; }
   section {
@@ -179,7 +179,7 @@ footer {
   .pregunta p {
     font-size: 25px; } }
 
-@media only screen and (min-width: 480px) and (max-width: 971px) {
+@media only screen and (max-width: 971px) and (min-width: 480px) {
   .principalTitle {
     font-size: 20px;
     background-size: 100%; }
