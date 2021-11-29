@@ -2,11 +2,70 @@
     box-sizing: border-box;
     margin:0;
 }
-.logo{
-    filter: brightness(1.1);
-    mix-blend-mode: multiply;
-    width: 120px;
+header{
+    width:100%;
+    background: #0c8387;
+    height: 50px;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
 }
+
+#menu-bar{
+    display:none;
+
+    &:checked {
+        ~ .menu{
+            margin:0;
+        }
+    }
+}
+
+
+header{
+    label{
+        width: 50px;
+        display: block;
+        cursor:pointer;
+        font-size: 20px;
+        margin:6px 0;
+        color:white;
+        margin-left: 80%;
+    }
+}
+.menu{
+    position: absolute;
+    top:50px;
+    background:#0c8387 ;
+    width: 70%;
+    margin-left: -70%;
+    transition: all 0.5s;
+
+    ul{
+        margin:0;
+        list-style:none;
+        padding: 0;
+        display: block;
+        li{
+            border-top:1px solid white;
+            &:hover{
+                background: rgba(0,0,0,0.3);
+            }
+            a{
+                display:block;
+                padding:15px 20px;
+                text-decoration: none;
+                color:white;
+                font-family: 'Amatic SC', cursive;
+
+            }
+        }
+    }
+}
+
+
+
 .principalTitle{
     h1{
         color: #0e635e;
@@ -15,6 +74,7 @@
         mix-blend-mode: multiply;
         text-align: center;
         width:100%;
+        margin-top: 60px;
     
         animation-name: fondoPrincipal;
         animation-iteration-count: infinite;
