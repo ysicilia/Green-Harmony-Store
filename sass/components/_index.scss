@@ -247,29 +247,23 @@ footer{
     }
     .menu{
         background: #5bcaab;
-        display:inline-block;
-        height: 155px;
+        display: inline-block;
+        margin-left:0;
+        margin:30px 0;
+        transition:none;
+        z-index:0;
 
         .menuBox{
             display:flex;
             justify-content: flex-end;
 
-
-
-
             li{
                 border-bottom: none;
-                font-size: 40px;
-                margin:0 40px;
-                line-height: 130px;
-
-
-
+                font-size: 30px;
                 &:hover{
                     background: rgba(0,0,0,0.3);
                 }
                 a{
-
                 }
             }
         }
@@ -288,6 +282,9 @@ footer{
     }
     header{
         height: 155px;
+    }
+    .principalTitle{
+        text-align: center;
     }
 }
 
@@ -347,7 +344,6 @@ footer{
         }
     }
 }
-
 
 
 
