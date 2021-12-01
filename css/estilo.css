@@ -189,13 +189,14 @@ footer {
   .tituloPequeño {
     font-size: 80px; }
   .container {
-    margin: 5%; }
+    margin: auto; }
   .container a {
     font-size: 30px; }
   label {
     font-size: 20px; }
   .seguinos {
-    font-size: 40px; }
+    font-size: 40px;
+    margin: auto; }
     .seguinos h3 {
       font-size: 40px; }
   .listaMenu {
@@ -250,7 +251,7 @@ footer {
   .littleTitle {
     font-size: 28px; }
   .container {
-    margin: 5%; }
+    margin: auto; }
   label {
     font-size: 18px; }
   .listaMenu {
