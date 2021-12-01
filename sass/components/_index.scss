@@ -8,18 +8,14 @@
     filter: brightness(1.1);
     mix-blend-mode: multiply;
     display:inline-block;
-
 }
 header{
     width: 100%;
     background: #5bcaab;
     height: 90px;
 }
-
-
 #menu-bar{
     display:none;
-
     &:checked {
         ~ .menu{
             margin:0;
@@ -37,7 +33,6 @@ header{
         }
     }
 }
-
 .menu{
     position: absolute;
     background:#0c8387 ;
@@ -45,7 +40,6 @@ header{
     margin-left: -70%;
     transition: all 0.5s;
     z-index: 100;
-
     .menuBox{
         margin:0;
         list-style:none;
@@ -62,16 +56,10 @@ header{
                 text-decoration: none;
                 color:white;
                 font-family: 'Amatic SC', cursive;
-
             }
         }
     }
 }
-
-
-
-
-
 .principalTitle{
     h1{
         color: #0e635e;
@@ -80,13 +68,12 @@ header{
         mix-blend-mode: multiply;
         text-align: center;
         width:100%;
-    
+        margin:50px 0;
         animation-name: fondoPrincipal;
         animation-iteration-count: infinite;
         animation-timing-function:ease-in;
         animation-duration: 4s;
         animation-delay: 5s;
-
         @keyframes fondoPrincipal{
             0% { color: #149073;}
             25% { color: #69c47c;}
@@ -105,83 +92,51 @@ header{
         font-size: 15px;
     }
 }
-.seguinos{
-    color:#d5436f;;
-    font-weight: bold;
-    text-align: center;
-    margin: 10%;
-    font-size: 25px;
-    h3{
-        @extend %littleTitle;
-        font-size: 25px;
+.card{
+    margin:20px auto;
+    border-radius: 50px;
+    .card-title{
+        font-family: 'Amatic SC', cursive;
+        color:#a15a8c;
+        text-align: center;
+        font-size:30px;
+        font-weight:bold;
     }
-}
-.container{
-    .iconos{
-        .tituloPequeño{
-            @extend %littleTitle;
-            font-size: 20px;
-        }
-    }
-
-    @extend %contenedor;
-    font-size:20px;
-    a{
-        @extend %contenedorLink;
-    }
-    p{
+    .card-text{
         @extend %parrafos;
-        font-size: 15px;
     }
-    .miniTitulo{
-        @extend %littleTitle;
-        font-size: 20px;
-    }
-}
-input{
-    height: 40px;
-    border:2px solid pink;
-    text-align: center;
-    margin: 2%;
-}
-label{
-    font-weight: bold;
-    font-family: 'Amatic SC', cursive;
-    color:#005f89;
-    margin: 2%;
-    text-align: center;
 }
 footer{
-    background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%);
+    background: #5bcaab;
     nav{
-        display:block;
+        padding:20px;
         .listaMenu{
+            margin:auto;
             .listaMenu__item{
                 list-style: none;
-                & a{
+                text-align: center;
+                &:hover{
+                    background: rgba(0,0,0,0.3);
+                    border-radius: 20px;
+                }
+                a{
                     text-decoration:none;
                     font-family: 'Amatic SC', cursive;
-                    color:black;
-                    font-size: 30px;
-                    font-weight: bold;
-                    transition: all 1s;
-                }
-                &:hover{
-                    background-color:#d1efc6;
-                    color:#145c8d;
-                    border-radius: 20px;
+                    color:white;
+                    font-size: 20px;
                 }
             }
         }
     }    
 }
 @media only screen and (min-width: 971px){
-    .principalTitle{
-        font-size:40px;
+    .card{
+        justify-content: space-between;
     }
-    section{
+    .card-text{
         font-size: 20px;
     }
+
     p{
         font-size: 30px;
     }
@@ -232,7 +187,7 @@ footer{
                 font-size: 30px;
             }
         }
-    
+
         font-size:30px;
         p{
             font-size: 20px;
@@ -289,15 +244,16 @@ footer{
     }
 }
 @media only screen and (max-width: 971px) and (min-width: 480px){
-    .principalTitle{
+
+    .card-text{
         font-size: 20px;
-        background-size:100%;
     }
+
     section{
         font-size: 13px;
     }
     p{
-        font-size: 30px;
+        font-size: 20px;
     }
     .title{
         font-size: 30px;

@@ -12,7 +12,7 @@
 .minititulo {
   font-size: 16px; }
 
-.pregunta p, .container p, .principalTitle p {
+.pregunta p, .card .card-text, .principalTitle p {
   color: black;
   font-family: 'Mali', cursive;
   text-align: center; }
@@ -23,20 +23,6 @@
   font-weight: bold;
   margin: 5% 0;
   text-align: center; }
-
-.seguinos h3, .container .iconos .tituloPequeño, .container .miniTitulo {
-  color: #005f89;
-  font-weight: bold;
-  font-family: 'Amatic SC', cursive;
-  text-align: center; }
-
-.container {
-  font-family: 'Amatic SC', cursive;
-  text-align: center; }
-
-.container a {
-  color: #d5436f;
-  margin: 10px; }
 
 * {
   box-sizing: border-box;
@@ -97,6 +83,7 @@ header .iconoHbg {
   mix-blend-mode: multiply;
   text-align: center;
   width: 100%;
+  margin: 50px 0;
   animation-name: fondoPrincipal;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
@@ -118,59 +105,38 @@ header .iconoHbg {
 .pregunta p {
   font-size: 15px; }
 
-.seguinos {
-  color: #d5436f;
-  font-weight: bold;
-  text-align: center;
-  margin: 10%;
-  font-size: 25px; }
-  .seguinos h3 {
-    font-size: 25px; }
-
-.container {
-  font-size: 20px; }
-  .container .iconos .tituloPequeño {
-    font-size: 20px; }
-  .container p {
-    font-size: 15px; }
-  .container .miniTitulo {
-    font-size: 20px; }
-
-input {
-  height: 40px;
-  border: 2px solid pink;
-  text-align: center;
-  margin: 2%; }
-
-label {
-  font-weight: bold;
-  font-family: 'Amatic SC', cursive;
-  color: #005f89;
-  margin: 2%;
-  text-align: center; }
+.card {
+  margin: 20px auto;
+  border-radius: 50px; }
+  .card .card-title {
+    font-family: 'Amatic SC', cursive;
+    color: #a15a8c;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold; }
 
 footer {
-  background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%); }
+  background: #5bcaab; }
   footer nav {
-    display: block; }
-    footer nav .listaMenu .listaMenu__item {
-      list-style: none; }
-      footer nav .listaMenu .listaMenu__item a {
-        text-decoration: none;
-        font-family: 'Amatic SC', cursive;
-        color: black;
-        font-size: 30px;
-        font-weight: bold;
-        transition: all 1s; }
-      footer nav .listaMenu .listaMenu__item:hover {
-        background-color: #d1efc6;
-        color: #145c8d;
-        border-radius: 20px; }
+    padding: 20px; }
+    footer nav .listaMenu {
+      margin: auto; }
+      footer nav .listaMenu .listaMenu__item {
+        list-style: none;
+        text-align: center; }
+        footer nav .listaMenu .listaMenu__item:hover {
+          background: rgba(0, 0, 0, 0.3);
+          border-radius: 20px; }
+        footer nav .listaMenu .listaMenu__item a {
+          text-decoration: none;
+          font-family: 'Amatic SC', cursive;
+          color: white;
+          font-size: 20px; }
 
 @media only screen and (min-width: 971px) {
-  .principalTitle {
-    font-size: 40px; }
-  section {
+  .card {
+    justify-content: space-between; }
+  .card-text {
     font-size: 20px; }
   p {
     font-size: 30px; }
@@ -239,13 +205,12 @@ footer {
     text-align: center; } }
 
 @media only screen and (max-width: 971px) and (min-width: 480px) {
-  .principalTitle {
-    font-size: 20px;
-    background-size: 100%; }
+  .card-text {
+    font-size: 20px; }
   section {
     font-size: 13px; }
   p {
-    font-size: 30px; }
+    font-size: 20px; }
   .title {
     font-size: 30px; }
   .littleTitle {
