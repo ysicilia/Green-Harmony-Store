@@ -106,8 +106,8 @@ header .iconoHbg {
   font-size: 15px; }
 
 .card {
-  margin: 20px auto;
-  border-radius: 50px; }
+  margin: 20px 0;
+  border-radius: 10px; }
   .card .card-title {
     font-family: 'Amatic SC', cursive;
     color: #a15a8c;
@@ -116,10 +116,12 @@ header .iconoHbg {
     font-weight: bold; }
 
 footer {
-  background: #5bcaab; }
+  background: #5bcaab;
+  width: 100%; }
   footer nav {
     padding: 20px; }
     footer nav .listaMenu {
+      display: block;
       margin: auto; }
       footer nav .listaMenu .listaMenu__item {
         list-style: none;
@@ -133,13 +135,22 @@ footer {
           color: white;
           font-size: 20px; }
 
+.sites__menu {
+  display: flex;
+  justify-content: center; }
+  .sites__menu .sites__menu__item {
+    list-style: none;
+    font-size: 20px;
+    margin: 30px 20px; }
+    .sites__menu .sites__menu__item a {
+      color: white;
+      text-align: center; }
+
 @media only screen and (min-width: 971px) {
-  .card {
-    justify-content: space-between; }
   .card-text {
     font-size: 20px; }
   p {
-    font-size: 30px; }
+    font-size: 20px; }
   .title {
     font-size: 35px; }
   .gallery {
@@ -202,7 +213,21 @@ footer {
   header {
     height: 155px; }
   .principalTitle {
-    text-align: center; } }
+    text-align: center; }
+  footer nav .listaMenu {
+    display: flex; }
+    footer nav .listaMenu .listaMenu__item a {
+      font-size: 30px; }
+  .sites__menu {
+    display: flex;
+    justify-content: center; }
+    .sites__menu .sites__menu__item {
+      list-style: none;
+      font-size: 20px;
+      margin: 30px 20px; }
+      .sites__menu .sites__menu__item a {
+        color: white;
+        text-align: center; } }
 
 @media only screen and (max-width: 971px) and (min-width: 480px) {
   .card-text {

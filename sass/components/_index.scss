@@ -93,8 +93,8 @@ header{
     }
 }
 .card{
-    margin:20px auto;
-    border-radius: 50px;
+    margin:20px 0;
+    border-radius: 10px;
     .card-title{
         font-family: 'Amatic SC', cursive;
         color:#a15a8c;
@@ -108,9 +108,11 @@ header{
 }
 footer{
     background: #5bcaab;
+    width: 100%;
     nav{
         padding:20px;
         .listaMenu{
+            display: block;
             margin:auto;
             .listaMenu__item{
                 list-style: none;
@@ -129,16 +131,28 @@ footer{
         }
     }    
 }
-@media only screen and (min-width: 971px){
-    .card{
-        justify-content: space-between;
+
+.sites__menu{
+    display:flex;
+    justify-content: center;
+    .sites__menu__item{
+        list-style: none;
+        font-size: 20px;
+        margin:30px 20px;
+        a{
+            color:white;
+            text-align: center;
+        }
     }
+}
+
+
+@media only screen and (min-width: 971px){
     .card-text{
         font-size: 20px;
     }
-
     p{
-        font-size: 30px;
+        font-size: 20px;
     }
     .title{
         font-size: 35px;
@@ -208,18 +222,14 @@ footer{
         margin:30px 0;
         transition:none;
         z-index:0;
-
         .menuBox{
             display:flex;
             justify-content: flex-end;
-
             li{
                 border-bottom: none;
                 font-size: 30px;
                 &:hover{
                     background: rgba(0,0,0,0.3);
-                }
-                a{
                 }
             }
         }
@@ -241,6 +251,33 @@ footer{
     }
     .principalTitle{
         text-align: center;
+    }
+    footer{
+        nav{
+            .listaMenu{
+                display:flex;
+                .listaMenu__item{
+                    &:hover{
+                    }
+                    a{
+                        font-size: 30px;
+                    }
+                }
+            }
+        }    
+    }
+    .sites__menu{
+        display:flex;
+        justify-content: center;
+        .sites__menu__item{
+            list-style: none;
+            font-size: 20px;
+            margin:30px 20px;
+            a{
+                color:white;
+                text-align: center;
+            }
+        }
     }
 }
 @media only screen and (max-width: 971px) and (min-width: 480px){
