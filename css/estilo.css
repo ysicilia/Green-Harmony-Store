@@ -262,6 +262,26 @@ footer {
     .seguinos h3 {
       font-size: 30px; } }
 
+.tienda {
+  text-align: center; }
+  .tienda .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .tienda .contenedor .materiales {
+      margin: 20px; }
+
+h4 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+  color: indianred; }
+
+.materiales img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  border: 5px solid #0c8387; }
+
 .principalTitle p {
   font-size: 15px; }
 
