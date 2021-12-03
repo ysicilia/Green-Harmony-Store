@@ -354,7 +354,7 @@ section .parrafoCosto {
 
 .container-form a i {
   color: #149073;
-  padding: 5px; }
+  padding: 0px; }
 
 .container-form form .campo, textarea {
   width: 50%;
@@ -401,4 +401,6 @@ section .parrafoCosto {
     min-height: 140px;
     max-height: 150px; }
   .container-form a i {
-    padding: 10px; } }
+    padding: 5px; }
+  .container-form form .campo, textarea {
+    width: 50%; } }
