@@ -12,147 +12,68 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
 
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Homemade+Apple&family=Indie+Flower&family=Satisfy&display=swap" rel="stylesheet">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Homemade+Apple&family=Indie+Flower&family=Mali:wght@200&family=Satisfy&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%);">
-        <div class="container-fluid">
-            <img class="logo" src="Imagenes/logo.jpg" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tiendafinal.html">Tienda</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="productosfinal.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%);">
-                            <li><a class="dropdown-item" href="productosfinal.html">Souvenirs</a></li>
-                            <li><a class="dropdown-item" href="productosfinal.html">Macetas</a></li>
-                            <li><a class="dropdown-item" href="productosfinal.html">Centros de mesa</a></li>
-                            <li><a class="dropdown-item" href="productosfinal.html">Imanes</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="costosfinal.html">Costos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <header>
+        <img class="logo" src="Imagenes/logo.jpg">
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="iconoHbg">
+            <i class="fas fa-bars"></i>
+        </label>
+        <nav class="menu">
+            <ul class="menuBox">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="tiendafinal.html">Tienda</a>
+                </li>
+                <li>
+                    <a href="productosfinal.html">Productos</a>
+                </li>
+                <li>
+                    <a href="costosfinal.html">Costos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section class="principalTitle">
         <h1>Contacto</h1>
-    </section class="formulario">  
-    <form method="">
-        <div>
-            <label for="Nombre">Nombre:</label>
-            <input type="text" name="Nombre">
-        </div>
-        <div>
-            <label for="Apellido">Apellido:</label>
-            <input type="text" name="Apellido">
-        </div>
-        <div>
-            <label for="Mail">Mail:</label>
-            <input type="email" name="Mail">
-        </div>
-        <div>
-            <label for="Telefono_(OPCIONAL) ">Telefono (OPCIONAL):</label>
-            <input type="tel" name="telefono_ (OPCIONAL)">
-        </div>
-        <div>
-            <label for="PRODUCTOS">PRODUCTOS</label>
-            <select name="PRODUCTOS">
-                <option value=""></option>
-                <option value="1">Souvenirs</option>
-                <option value="2">Macetas</option>
-                <option value="3">Centros de mesa</option>
-                <option value="4">Imanes</option>
-            </select>
-        </div>
-        <div>
-            <label><input type="checkbox" id="cbox1" value="¿Queres_recibir_nuestras_novedades?">¿Queres recibir nuestras novedades?</label>
-        </div>
-        <div>
-            <label for="msg">Mensaje: </label>
-            <textarea id="msg" name="msg"></textarea>
-        </div>
-        <div>
-            <input type="reset" value="Limpiar formulario">
-        </div>
-        <div>
-            <input type="submit" value="ENVIAR">
-        </div>
-    </form>
+    </section>
+    <section class="parrafoContacto">
+        <p>Estamos para ayudarte!Envianos un mensaje a nuestro Whatsapp o mandamos un privado a nuestra cuenta.</p>
+    </section>
+    <div class="container-form">
+        <div class="info-form">
 
-    <section>
-        <p class="parrafoContacto">ESTAMOS PARA AYUDARTE!ENVIANOS UN MENSAJE A NUESTRO WHATSAAP O MANDANOS UN INBOX A NUESTRA CUENTA OFICIAL DE INSTAGRAM!.</p>
-    </section>
-    <div class=" container">
-        <div class="row justify-content-between">
-            <section class="col-lg-3 col-sm-12 iconos">
-                <a href="costosfinal.html"><i class="fas fa-truck"></i></a>
-                <h3 class="tituloPequeño">ENVIOS</h3>
-                <p class="parrafoMedio" >Envios gratis en toda la localidad de Guernica</p>
-            </section>
-            <section class="col-lg-3 col-sm-12 iconos">
-                <a href=""><i class="fas fa-credit-card"></i></a>
-                <h3 class="tituloPequeño"> MEDIOS DE PAGO</h3>
-                <p class="parrafoMedio">3 y 6 cuotas sin interes (Visa y Mastercard)</p>
-            </section>
-            <section class="col-lg-3 col-sm-12 iconos">
-                <a href=""><i class="fas fa-lock"></i></a>
-                <h3 class="tituloPequeño">SITIO SEGURO</h3>
-                <p class="parrafoMedio">Protegemos tus datos</p>
-            </section>
+            <a href="#"> <i class="fab fa-whatsapp">
+            </i> 123-456-789</a>
+            <a href="#"> <i class="fas fa-envelope">
+            </i>verdearmonia.tienda@gmail.com</a>
+            <a href="#"> <i class="fas fa-map-marked-alt">
+            </i>Guernica BS. AS</a>
         </div>
+        <form action="">
+            <input type="text" name="Nombre" placeholder="Nombre" class="campo">
+            <input type="email" name="email" placeholder="Email" class="campo">
+            <textarea name=" Mensaje" placeholder="Mensaje"></textarea>
+            <input type="reset" name="borrar" value="Borrar formulario" class="boton">
+            <input type="submit" name="enviar" value="Enviar" class="boton">
+            
+        </form>
     </div>
-    <section class=" container">
-        <div class="row justify-content-between">
-            <div class="col-lg-4 col-sm-12">
-                <h4 class="miniTitulo">NEWSLETTERS</h4>
-                <label for="name">Nombre</label>
-                <input type="text" name="name" class="botones">
-                <label for="email">Email</label>
-                <input name="email" name="email" class="botones">
-                <input type="submit" value=">" class="botones" name="email">
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <h4 class="miniTitulo">REDES SOCIALES</h4>
-                <a href="https://www.instagram.com/verdearmonia.tienda/" title="Acesso directo a nuestra pagina de Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://web.facebook.com/Verde-Armonia-107602181663882" title="Acceso directo a nuestra pagina de facebook"><i class="fab fa-facebook-square"></i></a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <h4 class="miniTitulo">CONTACTANOS</h4>
-                <p>WhatsApp: 1157972675</p>
-                <p>verdearmonia.tienda@gmail.com</p>
-                <p>20ºA Guernica BS.AS Horarios: de lunes a sabados de 10 a  14 y 16:30 a 20:30 hs</p>
-            </div>
-        </div>
-    </section>
     <footer>
         <nav>
             <ul class="listaMenu">
@@ -162,6 +83,12 @@
                 <li class="listaMenu__item"><a href="costosfinal.html">Costos</a></li>
                 <li class="listaMenu__item"><a href="contacto.html">Contacto</a></li>
             </ul>
+            <section class="sites">
+                <ul class="sites__menu">
+                    <li class="sites__menu__item"><a href="https://www.instagram.com/verdearmonia.tienda/" title="Acesso directo a nuestra pagina de Instagram"><i class="fab fa-instagram"></i></a></li>
+                    <li class="sites__menu__item"><a href="https://web.facebook.com/Verde-Armonia-107602181663882" title="Acceso directo a nuestra pagina de facebook"><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
+            </section>
         </nav>
     </footer>
 

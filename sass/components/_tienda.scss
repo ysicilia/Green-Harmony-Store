@@ -21,8 +21,20 @@ h4{
     height: 180px;
     border-radius: 50px;
     border: 5px solid #0c8387;
+    animation-name: materialesReciclados;
+    animation-duration: 1.5s;
+    animation-timing-function: ease;
 
-
+    @keyframes materialesReciclados{
+        from{
+            transform: translate(-50%);
+            opacity: 0;
+        }
+        to {
+            transform: translate(0%);
+            opacity: 1;
+        }
+    }
 }
 
 .principalTitle{
