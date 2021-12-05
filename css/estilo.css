@@ -258,17 +258,44 @@ h4 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 20px;
-  transition: all 1s; }
+  border-radius: 20px; }
 
 .imagen:hover {
-  transform: scale(2, 1); }
+  opacity: .5;
+  transition: .9s; }
 
 .galleryItem:nth-child(1) {
   grid-column-start: span 2; }
 
 .galleryItem:nth-child(10) {
   grid-column-start: span 2; }
+
+@media only screen and (min-width: 971px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px; } }
+
+@media only screen and (min-width: 480px) and (max-width: 971px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px; } }
+
+section .parrafoCosto {
+  color: #6a496e;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 18px; }
+
+.mapa {
+  margin: 3em auto;
+  width: 300px;
+  height: 300px;
+  outline: 2px solid #6a496e; }
+  .mapa iframe {
+    width: 100%;
+    height: 100%; }
 
 table {
   border: 2px solid;
@@ -307,27 +334,6 @@ table {
     font-size: 15px; }
   tr td {
     font-size: 15px; } }
-
-section .parrafoCosto {
-  color: #6a496e;
-  text-align: center;
-  font-family: 'Amatic SC', cursive;
-  margin-top: 50px;
-  font-weight: bold;
-  font-size: 18px; }
-
-.mapa {
-  margin: 3em auto;
-  width: 300px;
-  height: 300px;
-  outline: 2px solid #6a496e; }
-  .mapa iframe {
-    width: 100%;
-    height: 100%; }
-
-* {
-  margin: 0;
-  box-sizing: border-box; }
 
 .container-form {
   margin: 10px;

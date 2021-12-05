@@ -24,41 +24,32 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%);">
-        <div class="container-fluid">
-            <img class="logo" src="imagenes/logo.jpg" alt="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tiendafinal.html">Tienda</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="productosfinal.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-image: linear-gradient(to left, white 0%, #159374 50%, white 100%);">
-                            <li><a class="dropdown-item" href="productosfinal.html">Souvenirs</a></li>
-                            <li><a class="dropdown-item" href="productosfinal.html">Macetas</a></li>
-                            <li><a class="dropdown-item" href="productosfinal.html">Centros de mesa</a></li>
-                            <li><a class="dropdown-item" href="productosfinal.html">Imanes</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="costosfinal.html">Costos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <header>
+        <img class="logo" src="Imagenes/logo.jpg">
+        <input type="checkbox" id="menu-bar">
+        <label for="menu-bar" class="iconoHbg">
+            <i class="fas fa-bars"></i>
+        </label>
+        <nav class="menu">
+            <ul class="menuBox">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="tiendafinal.html">Tienda</a>
+                </li>
+                <li>
+                    <a href="productosfinal.html">Productos</a>
+                </li>
+                <li>
+                    <a href="costosfinal.html">Costos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section class="principalTitle">
         <h1>Productos</h1>
     </section>
@@ -88,112 +79,6 @@
             <img class="imagen" src="Imagenes/CENTRO DE MESA 1.png" alt="centro de mesa con suculenta">
         </div>
     </div>
-    <h2 class="title">Productos destacados</h2>
-    <table border=1>
-        <tr>
-            <th>Tematica</th>
-            <th>Seccion</th>
-            <th>Tipo de suculenta</th>
-            <th>Recomendaciones</th>
-        </tr>
-        <tr>
-            <td>En la jungla</td>
-            <td>Souvenirs</td>
-            <td>Variegada</td>
-            <td>
-                <ul>
-                    <ol>
-                        <li>Riego Profundo</li>
-                        <li>Baja exposicion solar</li>
-                        <li>Mantener a una temperatura entre los 18º y 24º</li>
-                    </ol>
-                </ul>
-            </td>
-            </tr>
-            <tr>
-                <td>Abundancia</td>
-                <td>Maceta</td>
-                <td> Pachyphytum bracteosum</td>
-                <td>
-                    <ul>
-                        <ol>
-                            <li>Riego moderado (una vez por semana)</li>
-                            <li>No exponer al sol en horarios centrales</li>
-                            <li>Cuidar de temperaturas inferiores a los 5º</li>
-                        </ol>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Paz</td>
-                <td>Centros de mesa</td>
-                <td>Haworthia fasciata</TD>
-                <td>
-                    <ul>
-                        <ol>
-                            <li>Riego moderado (Cada 15 dias)</li>
-                            <li>No exponer directamente al sol</li>
-                            <li>Mantener a emperaturas superiores a los 10º</li>
-                        </ol>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Esperanza</td>
-                <td>Imanes</td>
-                <td>Sedum burrito</td>
-                <td>
-                    <ul>
-                        <ol>
-                            <li>Riego moderado</li>
-                            <li>Mucha luz pero de manera indirecta</li>
-                            <li>Temperaturas calidas y a salvo de las heladas</li>
-                    </ol>
-                </ul>
-            </tr>
-    </table>
-    <div class=" container">
-        <div class="row justify-content-between">
-            <section class="col-lg-3 col-sm-12 iconos">
-                <a href="costosfinal.html"><i class="fas fa-truck"></i></a>
-                <h3 class="tituloPequeño">ENVIOS</h3>
-                <p class="parrafoMedio" >Envios gratis en toda la localidad de Guernica</p>
-            </section>
-            <section class="col-lg-3 col-sm-12 iconos">
-                <a href=""><i class="fas fa-credit-card"></i></a>
-                <h3 class="tituloPequeño"> MEDIOS DE PAGO</h3>
-                <p class="parrafoMedio">3 y 6 cuotas sin interes (Visa y Mastercard)</p>
-            </section>
-            <section class="col-lg-3 col-sm-12 iconos">
-                <a href=""><i class="fas fa-lock"></i></a>
-                <h3 class="tituloPequeño">SITIO SEGURO</h3>
-                <p class="parrafoMedio">Protegemos tus datos</p>
-            </section>
-        </div>
-    </div>
-    <section class=" container">
-        <div class="row justify-content-between">
-            <div class="col-lg-4 col-sm-12">
-                <h4 class="miniTitulo">NEWSLETTERS</h4>
-                <label for="name">Nombre</label>
-                <input type="text" name="name" class="botones">
-                <label for="email">Email</label>
-                <input name="email" name="email" class="botones">
-                <input type="submit" value=">" class="botones" name="email">
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <h4 class="miniTitulo">REDES SOCIALES</h4>
-                <a href="https://www.instagram.com/verdearmonia.tienda/" title="Acesso directo a nuestra pagina de Instagram"><i class="fab fa-instagram"></i></a>
-                <a href="https://web.facebook.com/Verde-Armonia-107602181663882" title="Acceso directo a nuestra pagina de facebook"><i class="fab fa-facebook-square"></i></a>
-            </div>
-            <div class="col-lg-4 col-sm-12">
-                <h4 class="miniTitulo">CONTACTANOS</h4>
-                <p>WhatsApp: 1157972675</p>
-                <p>verdearmonia.tienda@gmail.com</p>
-                <p>20ºA Guernica BS.AS Horarios: de lunes a sabados de 10 a  14 y 16:30 a 20:30 hs</p>
-            </div>
-        </div>
-    </section>
     <footer>
         <nav>
             <ul class="listaMenu">
