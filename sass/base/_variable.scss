@@ -3,21 +3,9 @@
 
 $headings:(
     h1: 40px,
-    h2: 25px,
-    h3: 20px,
-    h4: 16px,
 );
 
 .principalTitle{
     font-size: map-get($headings, h1 );
 }
-.title{
-    font-size: map-get($headings, h2 );
-}
 
-.tituloPequeño{
-    font-size: map-get($headings, h3 );
-}
-.minititulo{
-    font-size: map-get($headings, h4 );
-}

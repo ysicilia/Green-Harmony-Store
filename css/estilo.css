@@ -3,19 +3,11 @@
 .principalTitle {
   font-size: 40px; }
 
-.title {
-  font-size: 25px; }
-
-.tituloPequeño {
-  font-size: 20px; }
-
-.minititulo {
-  font-size: 16px; }
-
 .pregunta p, .card .card-text, .principalTitle p, table tr td, .parrafoContacto {
   color: black;
   font-family: 'Mali', cursive;
-  text-align: center; }
+  text-align: center;
+  font-weight: bold; }
 
 .pregunta .title {
   color: #149073;
@@ -349,15 +341,17 @@ table {
   font-size: 16px;
   font-weight: bold; }
 
+.container-form ul {
+  list-style: none;
+  text-align: center; }
+
 .container-form li {
   font-size: 16px;
-  display: inline-block;
   text-decoration: none;
   width: 100%;
   margin-bottom: 20px;
   color: black;
-  font-weight: bold;
-  text-align: center; }
+  font-weight: bold; }
 
 .container-form li i {
   color: #149073;
