@@ -1,0 +1,105 @@
+header{
+    
+
+    .encabezado{
+        background-color:$encabezado-1;
+        background-image: linear-gradient(to left, $encabezado-1 0%, $encabezado-2 50%, $encabezado-1 100%);
+        .encabezado__listaMenu{
+            @extend %fleboxRow;
+            font-family: $fuente;
+            list-style: none;
+            .encabezado__listaMenu__item{
+                a{
+                    text-decoration: none;
+                    color:$navegador-texto;
+                    font-weight: bold;
+                    font-size: 30px;
+                    &:hover{
+                        background-color:#d1efc6;
+                        color:#145c8d;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+.principal{
+    h1{
+        color:$titulo;
+        text-align:center;
+        font-family: 'Dancing Script', cursive;
+
+    }
+    p{
+        @extend %parrafos;
+        text-align:center;
+    }
+}
+.info{
+    @extend %fleboxRow;
+    .iconos{
+        h3{
+            @extend %secciones;
+        }
+        p{
+            @extend %parrafos;
+        }
+        a{
+            color:$iconos;
+        }
+    }
+}
+.infoFinal{
+    @extend %fleboxRow;
+    section{
+        h4{
+            @extend %secciones;
+        }
+    }
+    p{
+        @extend %parrafos;
+    }
+    label{
+        @extend %secciones;
+    }
+    .iconos{
+        h4{
+            @extend %secciones;
+        }
+        a{
+            color:$iconos;
+        }
+    }
+}
+footer{
+    .encabezado{
+        background-color:$encabezado-1;
+        background-image: linear-gradient(to left, $encabezado-1 0%, $encabezado-2 50%, $encabezado-1 100%);
+
+        .encabezado__listaMenu{
+            @extend %fleboxRow;
+            font-family: $fuente;
+            list-style: none;
+            .encabezado__listaMenu__item{
+                a{
+                    text-decoration: none;
+                    color:$navegador-texto;
+                    font-weight: bold;
+                    font-size: 30px;
+                    &:hover{
+                        background-color:#d1efc6;
+                        color:#145c8d;
+                        border-radius: 10px;
+                    }
+                }
+
+            }
+        }
+    }
+}
