@@ -1,19 +1,19 @@
 
 section{
     .parrafoCosto{
-        color:#146580;
+        color:$color3;
         text-align: center;
         font-family: 'Amatic SC', cursive;
         margin-top: 50px;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 .mapa{
     margin: 3em auto;
     width: 300px;
     height: 300px;
-    outline:2px solid #6a496e;
+    outline:2px solid $color4;
     iframe{
         width: 100%;
         height: 100%;
@@ -25,9 +25,9 @@ table{
     font-size: 10px;
     margin: 20% 0%;
     th{
-        background-color:#e2e2e2;
-        border: 1px solid black;
-        color:#d5436f;
+        background-color:$color5;
+        border: 1px solid $color6;
+        color:#6a496e;
         text-align: center;
     }
     tr td {
@@ -38,10 +38,6 @@ table{
 }
 
 @media only screen and (min-width: 971px){
-    .gallery{
-        grid-template-columns: repeat(3,1fr);
-        grid-auto-rows: 300px;
-    }
     table{
         width:80%;
         margin: auto;
@@ -54,10 +50,6 @@ table{
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 971px){
-    .gallery{
-        grid-template-columns: repeat(3,1fr);
-        grid-auto-rows: 300px;
-    }
     table{
         width:80%;
         margin: auto;

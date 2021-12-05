@@ -14,7 +14,7 @@
 h4{
     font-family: 'Amatic SC', cursive;
     font-weight: bold;
-    color:#6a496e;
+    color:$color4;
 }
 .materiales img{
     width:180px;
@@ -22,7 +22,7 @@ h4{
     animation-name: materialesReciclados;
     animation-duration: 1.5s;
     animation-timing-function: ease;
-    border:1px solid #6a496e;
+    border:1px solid $color4;
     border-radius: 20px;
 
     @keyframes materialesReciclados{
@@ -36,7 +36,6 @@ h4{
         }
     }
 }
-
 .principalTitle{
         p{
             @extend %parrafos;

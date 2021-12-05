@@ -12,7 +12,6 @@
     height: 300px;
     margin-bottom: 20px;
     object-fit: cover;
-    border: 1px solid #6a496e;
     border-radius: 20px;
 }
 @keyframes escalar{
@@ -26,14 +25,6 @@
 .galeria__imagen:hover{
     filter: brightness(100%);
     animation:escalar 1.5s infinite alternate;
-}
-
-
-@media only screen and (min-width: 971px){
-
-}
-@media only screen and (min-width: 480px) and (max-width: 971px){
-
 }
 
 

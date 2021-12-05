@@ -11,7 +11,7 @@
 }
 header{
     width: 100%;
-    background: #5bcaab;
+    background: $color1;
     height: 90px;
 }
 #menu-bar{
@@ -27,7 +27,7 @@ header{
         float: right;
         font-size: 23px;
         margin:25px 10px;
-        color:white;
+        color:$color8;
         &:hover{
             cursor:pointer;
         }
@@ -35,7 +35,7 @@ header{
 }
 .menu{
     position: absolute;
-    background:#0c8387;
+    background:$color2;
     width: 70%;
     margin-left: -70%;
     transition: all 0.5s;
@@ -55,7 +55,7 @@ header{
                 display:block;
                 padding:15px 20px;
                 text-decoration: none;
-                color:white;
+                color:$color8;
                 font-family: 'Amatic SC', cursive;
             }
         }
@@ -63,7 +63,7 @@ header{
 }
 .principalTitle{
     h1{
-        color: #0e635e;
+        color:$color2;
         filter: brightness(1.1);
         font-family: 'Dancing Script', cursive;
         mix-blend-mode: multiply;
@@ -98,7 +98,7 @@ header{
     border-radius: 10px;
     .card-title{
         font-family: 'Amatic SC', cursive;
-        color:#a15a8c;
+        color:$color4;
         text-align: center;
         font-size:30px;
         font-weight:bold;
@@ -109,7 +109,7 @@ header{
     }
 }
 footer{
-    background: #5bcaab;
+    background: $color1;
     width: 100%;
     nav{
         padding:20px;
@@ -126,7 +126,7 @@ footer{
                 a{
                     text-decoration:none;
                     font-family: 'Amatic SC', cursive;
-                    color:white;
+                    color:$color8;
                     font-size: 20px;
                 }
             }
@@ -142,7 +142,7 @@ footer{
         font-size: 20px;
         margin:30px 20px;
         a{
-            color:white;
+            color:$color8;
             text-align: center;
         }
     }
@@ -184,7 +184,7 @@ footer{
         display: flex;
     }
     .menu{
-        background: #5bcaab;
+        background: $color1;
         display: inline-block;
         margin-left:0;
         margin:0;
@@ -213,7 +213,6 @@ footer{
     }
     .logo{
         width: 150px;
-
     }
     header{
         height: 155px;
@@ -248,8 +247,7 @@ footer{
         }
     }
 }
-@media only screen and (max-width: 971px) and (min-width: 480px){
-}
+
 
 
 
