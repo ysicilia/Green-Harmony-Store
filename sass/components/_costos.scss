@@ -1,12 +1,8 @@
 
 section{
     .parrafoCosto{
-        color:$color3;
-        text-align: center;
-        font-family: 'Amatic SC', cursive;
-        margin-top: 50px;
-        font-weight: bold;
-        font-size: 20px;
+        @extend %parrafos;
+        margin:30px 0;
     }
 }
 .mapa{
@@ -20,8 +16,7 @@ section{
     }
 }
 table{
-    border: 2px solid;
-    color:black;
+    border: 1px solid ;
     font-size: 10px;
     margin: 20% 0%;
     th{
