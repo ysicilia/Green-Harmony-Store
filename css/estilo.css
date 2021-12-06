@@ -280,7 +280,7 @@ section .parrafoCosto {
 table {
   border: 1px solid;
   font-size: 10px;
-  margin: 20% 0%; }
+  margin: auto 10px; }
   table th {
     background-color: #c0b5b5;
     border: 1px solid #080808;
