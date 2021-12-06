@@ -323,7 +323,8 @@ table {
 
 .container-form ul {
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
 
 .container-form li {
   font-size: 16px;
@@ -368,25 +369,6 @@ table {
     background: rgba(0, 0, 0, 0.3); }
 
 @media only screen and (min-width: 971px) {
-  .container-form {
-    width: 100%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    margin-top: 90px; }
-  .container-form form textarea {
-    max-width: 500x;
-    min-width: 500px;
-    min-height: 140px;
-    max-height: 150px; }
-  .container-form a i {
-    padding: 5px; }
-  .container-form form .campo, textarea {
-    width: 50%; } }
-
-@media only screen and (min-width: 760px) and (max-width: 971px) {
   .container-form {
     width: 100%;
     max-width: 1100px;
